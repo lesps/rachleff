@@ -1,0 +1,20 @@
+{%extends "base.html" %}
+
+{% block content %}
+  <h3>
+    Student Information
+  </h3>
+
+  <table class="sortable">
+    <tr>
+      <th>Student Name</th><th>Major</th><th>Mentor</th>
+    </tr>
+    {% for s in students %}
+      <tr>
+        <td><a href="{{url_for('show_abstract', key=s.key)}}">{{s.name}}</a></td>
+        <td>{{s.major}}</td>
+        <td>{{s.mentor}}</td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endblock content %}

@@ -1,0 +1,4 @@
+Name: Diya Lee
+Major: CBE
+Mentor: Dr. Dayeon Lee
+Abstract: This paper introduces a new method to make single-side nanoparticle coated organic membranes. By introducing polymer layers as sacrificial layers, single side nanoparticle coated membranes have been successfully created. By decreasing the thickness of the nanoparticle layers, we obtained crack-free membranes.

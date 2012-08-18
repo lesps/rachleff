@@ -1,0 +1,76 @@
+import sys, os, re
+
+from PIL import Image
+
+from flask import Flask, render_template
+from flask_frozen import Freezer
+
+
+
+class student:
+
+  def __init__(self, filename):
+    f=open(filename,'r')
+    info=f.read()
+    li=[s.strip() for s in re.split('\w*:',info)]
+    self.name,self.major,self.mentor,self.abstract=li[1],li[2],li[3],li[4]
+    self.abstract.encode('utf-8')
+    key=re.search('\w*\.txt',filename).group(0)
+    self.key=re.sub('\.txt','',key)
+    
+app = Flask(__name__)
+app.config.from_object(__name__)
+app.config.update(
+DEBUG=True,
+FREEZER_BASE_URL="/home/spencer/python/rachleff/build"
+)
+freezer = Freezer(app)
+
+imagedir="images"
+abstractdir="abstracts"
+studentobjs=[]
+abstractobjs={}
+
+
+def sortImagesByHeight(images):
+  heights={}
+  for i in images:
+    heights[i]=Image.open(i).size[1]
+  return sorted(heights, key=heights.get) 
+
+
+imagelist=os.listdir("./static/"+imagedir)
+imagefiles=["./static/images/"+l for l in imagelist]
+sortedimages=sortImagesByHeight(imagefiles)
+imgs=[re.sub("./static/","",i) for i in sortedimages]
+
+abstractlist=os.listdir('./static/'+abstractdir)
+abstractfiles=["./static/abstracts/"+l for l in abstractlist]
+studentobjs=[student(l) for l in abstractfiles]
+abstractobjs={p.key:p for p in studentobjs}
+
+@app.route("/")
+def index():
+  return render_template('index.html')
+
+@app.route("/society/")
+def society():
+  return render_template('society.html')
+
+@app.route("/gallery/")
+def gallery():
+    return render_template('gallery.html', images=imgs)
+
+@app.route("/scholars/")
+def students():
+  return render_template('students.html', students=studentobjs)
+
+@app.route("/scholars/<key>")
+def show_abstract(key):
+  return render_template('abstracts.html', student=abstractobjs[key])
+
+if __name__=="__main__":
+  if len(sys.argv) > 1 and sys.argv[1] == "build":
+    freezer.freeze()
+  else:
+    app.run(port=8000)

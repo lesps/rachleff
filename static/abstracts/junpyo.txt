@@ -1,0 +1,4 @@
+Name: Jun-Beom Pyo
+Major: MSE
+Mentor: Dr. Chris Murray
+Abstract: Platinum is widely known as powerful and useful catalysts for many applications such as fuel cells. However, there has been an issue of price. Therefore, in order to reduce the amount of platinum and to add additional benefits, platinum alloy bimetallic system has been greatly attracting attention. In this report, platinum copper alloy nanowires are studied. We propose a way of synthesizing Pt-Cu nanowires and to tune the length of nanowires from 20nm to 200nm. Lower reaction temperature, lower oleylamine, and lower heating rate shortened the lengths of nanowires.

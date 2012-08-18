@@ -1,0 +1,4 @@
+Name: Andrew Glace
+Major: CBE
+Mentor: Dr. Raymond Gorte
+Abstract: A technical appraisal of the HEL AutoMATE, Mettler-Toledo MultiMax, and Mettler-Toledo EasyMax automated laboratory reactor (ALR) platforms is provided. ALR platforms can accelerate process development through parallel experimentation and enhance the value of each experiment by providing rich data sets. However, rich data sets are only useful when representative of process behavior at manufacturing scale. Consequently, the three ALR platforms are evaluated to determine their performance in four areas that are critical to achieving representative scale-down of drug substance manufacturing processes: 1) propensity for solvent loss, 2) calorimetric accuracy, 3) crystallization, and 4) mixing. In addition, the physical robustness, facility of parallel operation at distinct reaction conditions, and software/user interface of each platform are assessed.

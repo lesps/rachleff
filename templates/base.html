@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>Rachleff Scholars, University of Pennsylvania</title>
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}" media="screen">
+  <script src="{{url_for('static',filename='sorttable.js')}}"></script>
+</head>
+
+<body>
+  <h1><a href="{{url_for('index') }}">Rachleff Scholars</a></h1>
+  <nav class="table">
+    <ul class="horizontal_list">
+      <a class="button" href="{{url_for('society')}}"><li>The Society</li></a>
+      <a class="button" href="{{url_for('gallery')}}"><li>Image Gallery</li></a>
+      <a class="button" href="{{url_for('students')}}"><li>Students</li></a>
+    </ul> 
+  </nav>
+
+<section class="maincontent">
+{% block content %}
+  <p>Default content to be displayed</p>
+{% endblock content %}
+</section>
+
+</body>
+</html>

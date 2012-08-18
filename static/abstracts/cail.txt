@@ -1,0 +1,4 @@
+Name: Levi Cai
+Major: MEAM
+Mentor: Dr. Daniel Lee
+Abstract: Information theoretic tools, such as mutual information and entropy, have been used by neuroscientists and electrical engineers for decades to analyze information gained, or lost, about an input signal and a correlated output signal following some form of translation. These provide a strong backbone for determining the strength of particular features in algorithms for biologically-based acoustic recognition tasks. This paper explores the potential of information theoretic tools combined with a biologically plausible model for creating simpler audio recognition algorithms than those that currently exist. The eventual goal is to create a robust, biologically plausible algorithm that can be used in robotics applications for audio recognition. We have found that, even by following the simplest biological models, we are able to determine strong features for speech signal analysis and recognition.
