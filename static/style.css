@@ -63,6 +63,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', end
   margin: 0 auto;
 }
 
+.show{
+  display: table;
+  margin: 0 auto;
+  width: 500px;
+}
+
 ul{
   margin: 0 auto;
   padding: 0;
@@ -84,6 +90,7 @@ ul.horizontal_list li{
 
 .button {
   background: -webkit-linear-gradient(top, rgba(240,183,161,1) 0%,rgba(191,110,78,1) 38%,rgba(140,51,16,1) 100%);
+  background-repeat: no-repeat;
 	display: inline-block;
 	outline: none;
 	cursor: pointer;
