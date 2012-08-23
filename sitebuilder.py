@@ -39,6 +39,7 @@ FREEZER_BASE_URL="/home/spencer/python/rachleff/build"
 freezer = Freezer(app)
 
 imagedir="images"
+slidesdir="slides"
 abstractdir="abstracts"
 studentobjs=[]
 abstractobjs={}
@@ -52,9 +53,13 @@ def sortImagesByHeight(images):
 
 
 imagelist=os.listdir("./static/"+imagedir)
-imagefiles=["./static/images/"+l for l in imagelist]
+imagefiles=["./static/"+imagedir+"/"+l for l in imagelist]
 sortedimages=sortImagesByHeight(imagefiles)
 imgs=[re.sub("./static/","",i) for i in sortedimages]
+
+slidelist=os.listdir("./static/"+slidesdir)
+slidefiles=["./static/"+slidesdir+"/"+l for l in slidelist]
+slds=[re.sub("./static/","",i) for i in slidefiles]
 
 abstractlist=os.listdir('./static/'+abstractdir)
 abstractfiles=["./static/abstracts/"+l for l in abstractlist]
@@ -63,7 +68,7 @@ abstractobjs={p.key:p for p in studentobjs if p.exists}
 
 @app.route("/")
 def index():
-  return render_template('home.html', images=imgs)
+  return render_template('home.html', images=slds)
 
 @app.route("/society/")
 def society():
