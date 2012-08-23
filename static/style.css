@@ -1,6 +1,9 @@
 img{
   vertical-align: middle;
   width: 100%;
+}
+
+img.show{
   height: 100%;
 }
 
@@ -70,6 +73,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', end
   width: 500px;
   height: 350px;
 }
+
+.picture{
+  width: 500px;
+  display: table;
+  margin: 0 auto;
+}
+
 
 ul{
   margin: 0 auto;
