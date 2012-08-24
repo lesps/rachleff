@@ -62,6 +62,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', end
   font-size: 20px;
 }
 
+.names{
+  font-size: 14px;
+  text-align: center;
+}
+
+ul.names{
+  list-style-type:none;
+}
+
 .table{
   display: table;
   margin: 0 auto;
