@@ -21,12 +21,13 @@ class student:
     info=f.read()
     li=[s.strip() for s in re.split('(?:^|\n)\w+:',info)]
     try:
-      self.name,self.major,self.mentor,self.abstract,self.exists=li[1],li[2],li[3],li[4].decode('latin-1'),True
+      self.name,self.major,self.mentor,self.abstract,\
+      self.exists=li[1],li[2],li[3],li[4].decode('latin-1'),True
     except IndexError:
       self.exists=False
       return
     temp=self.name.split()
-    self.name=temp[1]+", "+temp[0]
+    self.alpha=temp[1]+", "+temp[0]
     key=re.search('\w*\.txt',filename).group(0)
     self.key=re.sub('\.txt','',key)
     
