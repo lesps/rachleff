@@ -65,6 +65,7 @@ slds=[re.sub("./static/","",i) for i in slidefiles]
 abstractlist=os.listdir('./static/'+abstractdir)
 abstractfiles=["./static/abstracts/"+l for l in abstractlist]
 studentobjs=[student(l) for l in abstractfiles]
+sortedstudents=sorted(studentobjs,key=lambda student: student.alpha)
 abstractobjs={p.key:p for p in studentobjs if p.exists}
 
 @app.route("/")
@@ -81,7 +82,7 @@ def gallery():
 
 @app.route("/scholars/", methods=['GET', 'POST'])
 def students():
-  return render_template('students.html', students=studentobjs)
+  return render_template('students.html', students=sortedstudents)
 
 @app.route("/scholars/<key>")
 def show_abstract(key):
