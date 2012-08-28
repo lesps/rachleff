@@ -74,15 +74,15 @@ def index():
 
 @app.route("/society/")
 def society():
-  return render_template('society.html')
+  return render_template('society.html', page="society")
 
 @app.route("/gallery/")
 def gallery():
-    return render_template('gallery.html', images=imgs)
+    return render_template('gallery.html', images=imgs, page="gallery")
 
 @app.route("/scholars/", methods=['GET', 'POST'])
 def students():
-  return render_template('students.html', students=sortedstudents)
+  return render_template('students.html', students=sortedstudents, page="students")
 
 @app.route("/scholars/<key>")
 def show_abstract(key):

@@ -10,12 +10,34 @@
 </head>
 
 <body>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".button").click(function(event){
+        $(".button").removeClass("selected");
+        $(this).addClass("selected");
+      });
+    }); 
+  </script>
   <h1><a href="{{url_for('index') }}">Rachleff Scholars</a></h1>
   <nav class="table">
     <ul class="horizontal_list">
-      <a class="button" href="{{url_for('society')}}"><li>The Society</li></a>
-      <a class="button" href="{{url_for('gallery')}}"><li>Image Gallery</li></a>
-      <a class="button" href="{{url_for('students')}}"><li>Students</li></a>
+      {%if page=="society"%}
+        <a id="society" class="button selected" href="{{url_for('society')}}"><li>The Society</li></a>
+        <a id="gallery" class="button" href="{{url_for('gallery')}}"><li>Image Gallery</li></a>
+        <a id="students" class="button" href="{{url_for('students')}}"><li>Students</li></a>
+      {%elif page=="gallery"%}
+        <a id="society" class="button" href="{{url_for('society')}}"><li>The Society</li></a>
+        <a id="gallery" class="button selected" href="{{url_for('gallery')}}"><li>Image Gallery</li></a>
+        <a id="students" class="button" href="{{url_for('students')}}"><li>Students</li></a>
+      {%elif page=="students"%}
+        <a id="society" class="button" href="{{url_for('society')}}"><li>The Society</li></a>
+        <a id="gallery" class="button" href="{{url_for('gallery')}}"><li>Image Gallery</li></a>
+        <a id="students" class="button selected" href="{{url_for('students')}}"><li>Students</li></a>
+      {%else%}
+        <a id="society" class="button" href="{{url_for('society')}}"><li>The Society</li></a>
+        <a id="gallery" class="button" href="{{url_for('gallery')}}"><li>Image Gallery</li></a>
+        <a id="students" class="button" href="{{url_for('students')}}"><li>Students</li></a>
+      {%endif%}
     </ul> 
   </nav>
 
