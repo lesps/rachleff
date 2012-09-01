@@ -22,18 +22,22 @@
   <nav class="table">
     <ul class="horizontal_list">
       {%if page=="society"%}
+        <a id="students" class="button" href="{{url_for('index')}}"><li>Home</li></a>
         <a id="society" class="button selected" href="{{url_for('society')}}"><li>The Society</li></a>
         <a id="gallery" class="button" href="{{url_for('gallery')}}"><li>Image Gallery</li></a>
         <a id="students" class="button" href="{{url_for('students')}}"><li>Students</li></a>
       {%elif page=="gallery"%}
+        <a id="students" class="button" href="{{url_for('index')}}"><li>Home</li></a>
         <a id="society" class="button" href="{{url_for('society')}}"><li>The Society</li></a>
         <a id="gallery" class="button selected" href="{{url_for('gallery')}}"><li>Image Gallery</li></a>
         <a id="students" class="button" href="{{url_for('students')}}"><li>Students</li></a>
       {%elif page=="students"%}
+        <a id="students" class="button" href="{{url_for('index')}}"><li>Home</li></a>
         <a id="society" class="button" href="{{url_for('society')}}"><li>The Society</li></a>
         <a id="gallery" class="button" href="{{url_for('gallery')}}"><li>Image Gallery</li></a>
         <a id="students" class="button selected" href="{{url_for('students')}}"><li>Students</li></a>
       {%else%}
+        <a id="students" class="button selected" href="{{url_for('index')}}"><li>Home</li></a>
         <a id="society" class="button" href="{{url_for('society')}}"><li>The Society</li></a>
         <a id="gallery" class="button" href="{{url_for('gallery')}}"><li>Image Gallery</li></a>
         <a id="students" class="button" href="{{url_for('students')}}"><li>Students</li></a>
