@@ -1,4 +1,5 @@
 Name: Michael Posner
 Major: MEAM/CIS
+Class: 2012
 Mentor: Dr. Zachary Ives
 Abstract: Current sensor networks composed of independently programmed components (devices, software modules, data streams, etc.) quickly become difficult to maintain as more types of components are introduced. A declarative language approach seeks to be a more effective programming method by using high-level queries to collect information from the network. The SmartCIS project is a real-world implementation of a declarative language system which incorporates data from machines, sensors, and the web. One important feature needed in these kinds of networks is the ability to locate their nodes in space. Presented here is the application of RFID localization techniques to this new system. A sensor network simulation program is used to test sensor-level RFID behavior. The data collection and localization algorithm is successfully implemented in a centralized application, yielding promising results.

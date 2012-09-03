@@ -1,4 +1,5 @@
 Name: Alen Kubati
 Major: CIS
+Class: 2013
 Mentor: Dr. Andre DeHon
 Abstract: It is well known that most computers today suffer from security flaws inherent in their architecture and their Operating Systems. It has been pointed out in MIT's TIARA project [1] and the subsequent SAFE project conducted here at Penn [2][3][4], that these security flaws occur as a result of compromises made to increase performance of both hardware as well as software components. They argue however, that these security flaws can be fixed by a systematic change in computing, starting with the hardware and the Operating System. This would not cause a decrease in performance since the security architecture added would run in parallel with modern day processors. This proposed research is intended to show that these new secure systems will not be compromised even when connected to non-secure systems across a network. Furthermore, this added security in the network interfaces will not compromise the performance of such a system.

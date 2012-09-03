@@ -1,4 +1,5 @@
 Name: Evan Mossop
 Major: CIS
+Class: 2012
 Mentor: Dr. Matt Blaze
 Abstract: The security needs for systems are constantly changing. One promising field of security is embedded systems. Embedded systems are computing systems with a limited number of operations; one such system is an ATM. Despite their importance to society today, ATM and embedded system security procedures have not been extensively evaluated. In this paper, the security model of ATMs is investigated. After a basis of the model has been established, currently exploited attacks are evaluated with respect to the ATM model.

@@ -16,6 +16,12 @@
         $(".button").removeClass("selected");
         $(this).addClass("selected");
       });
+      $(".clickable").click(function(event) {
+        if($(this).attr("href") !== undefined){
+           document.location = $(this).attr("href");
+        }
+      });
+
     }); 
   </script>
   <h1><a href="{{url_for('index') }}">Rachleff Scholars</a></h1>

@@ -1,4 +1,5 @@
 Name: Karthik Kumar
 Major: MSE
+Class: 2013
 Mentor: Dr. Ritesh Agarwal
 Abstract: Today, there is a growing need for a method of electronc memory storage that fulfills the need for non-volatility, low power consumption, and high packing density. As standard top-down approaches are reaching their limits terms of fine size control, bottom-up means of device synthesis are gaining popularity. One such up-and-coming technology is Phase Change Memory (PCRAM), which essentially uses the material properties of single nanowires to store information. By switching the phase of a wire from the amorphous to crystalline state via electrical pulses, one can effectively represent data 1's and 0's.

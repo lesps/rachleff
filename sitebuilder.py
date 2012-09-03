@@ -21,8 +21,8 @@ class student:
     info=f.read()
     li=[s.strip() for s in re.split('(?:^|\n)\w+:',info)]
     try:
-      self.name,self.major,self.mentor,self.abstract,\
-      self.exists=li[1],li[2],li[3],li[4].decode('latin-1'),True
+      self.name,self.major,self.year,self.mentor,self.abstract,\
+      self.exists=li[1],li[2],li[3],li[4],li[5].decode('latin-1'),True
     except IndexError:
       self.exists=False
       return

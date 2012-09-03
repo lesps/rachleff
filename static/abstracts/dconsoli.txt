@@ -1,4 +1,5 @@
 Name: Daniel Consoli
 Major: CBE
+Class: 2013
 Mentor: Dr. Talid Sinno
 Abstract: Oxide precipitates, or bulk micro defects (BMDs), in single-crystal silicon cause warping of crystal structure and detrimental effects on electrical properties. Studies of oxygen in silicon can determine conditions under which these precipitates form and evaluate methods to minimize crystal deformation. Molecular dynamic models can describe BMD morphology using fundamental silicon-oxygen potentials without any macroscopic assumptions. LAMMPS software provides a convenient tool for running molecular dynamic (MD) models for oxygen in a silicon lattice. Because LAMMPS operates at an atomic level, lattice parameters can be specified to generate the numerous BMD structures seen in the literature. Energy minimization calculations will be conducted on equilibrium model results to determine ideal BMD structure. From this data, general models can be elucidated to describe BMD formation and structure based on fundamental parameters. 

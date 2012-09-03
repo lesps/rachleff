@@ -7,14 +7,17 @@
 
   <table class="sortable">
     <tr>
-      <th>Student Name</th><th>Major</th><th>Mentor</th>
+      <th>Student Name</th><th>Major</th><th>Class</th><th>Mentor</th>
     </tr>
     {% for s in students %}
-      <tr>
-        <td><a href="{{url_for('show_abstract', key=s.key)}}">{{s.alpha}}</a></td>
+    
+      <tr class="clickable" href="{{url_for('show_abstract', key=s.key)}}">
+        <td>{{s.alpha}}</td>
         <td>{{s.major}}</td>
+        <td>{{s.year}}</td>
         <td>{{s.mentor}}</td>
       </tr>
+    </a>
     {% endfor %}
   </table>
 {% endblock content %}

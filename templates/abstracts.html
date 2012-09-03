@@ -1,8 +1,16 @@
 {% extends "base.html" %}
 
 {% block content %}
+
+<!--
+  <div class="backButton">
+  <a href="{{url_for('students')}}">
+  <div class="button">Back</div></a>
+  </div>
+-->
+
   <h3>{{student.name}}</h3>
   <p>
     {{student.abstract|safe}}
-  </p>
+      </p>
 {% endblock content%}

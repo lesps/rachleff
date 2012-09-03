@@ -14,6 +14,36 @@ table.sortable thead {
     cursor: default;
 }
 
+table.sortable th{
+  text-align: left;
+}
+
+table.sortable{
+  border-spacing: 10px 3px;
+}
+
+.backButton{
+  float: left;
+} 
+.clickable{
+  color: #5C7298;
+}
+
+.clickable:link{
+  color: #5C7298;
+}
+
+.clickable:hover {
+  cursor: pointer;
+	text-decoration: none;
+  color: #5C7298;
+}
+
+.clickable:active {
+	text-decoration: none;
+  color: #5C7298;
+}
+
 h1{
   text-align: center;
 }
