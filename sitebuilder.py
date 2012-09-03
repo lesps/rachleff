@@ -65,8 +65,9 @@ slds=[re.sub("./static/","",i) for i in slidefiles]
 abstractlist=os.listdir('./static/'+abstractdir)
 abstractfiles=["./static/abstracts/"+l for l in abstractlist]
 studentobjs=[student(l) for l in abstractfiles]
+studentobjs=[l for l in studentobjs if l.exists] 
 sortedstudents=sorted(studentobjs,key=lambda student: student.alpha)
-abstractobjs={p.key:p for p in studentobjs if p.exists}
+abstractobjs={p.key:p for p in studentobjs}
 
 @app.route("/")
 def index():
