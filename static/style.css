@@ -56,7 +56,7 @@ h1{
 h3{
   text-align: center;
   font-size: 30px;
-  font-family: Helvetica, sans-serif;
+  font-family: palatino, sans-serif;
 }
 
 
@@ -94,7 +94,7 @@ background: #466498;
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  font: 20px palatino,sans-serif;
+  font: 15px palatino,sans-serif;
   position: relative;
   z-index: 1;
 }
