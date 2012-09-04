@@ -1,5 +1,5 @@
 Name: Samantha Farmer
 Major: CBE
 Class: 2013
-Mentor: Dr. Gianola
+Mentor: Dr. Dan Gianola
 Abstract: The use of kinetic theory to model thermal conductivity is justified and adapted to evaluate the effect of strain on thermal conductivity. Finite element analysis software is used to model the strain profiles of strained silicon nanomeshes. The kinetic theory model is incorporated into the finite element analysis simulations to determine the resultant thermal conductivities. It is observed that tensile strain results in a decrease in thermal conductivity, while compressive strain results in an increase. The simulations are performed for a variety of strained mesh geometries with different regions of compressive and tensile strain. The goal is to determine the optimal geometry for tunable thermal conductivity reduction with applications to thermoelectric materials.

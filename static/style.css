@@ -7,6 +7,11 @@ img.show{
   height: 100%;
 }
 
+#title{
+  height: 100%;
+  width: 300px;
+}
+
 table.sortable thead {
     /*background-color:#eee;*/
     color:#666666;
@@ -89,7 +94,7 @@ background: #466498;
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
-font: 15px arial,sans-serif;
+  font: 20px palatino,sans-serif;
   position: relative;
   z-index: 1;
 }
