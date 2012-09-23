@@ -35,7 +35,7 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 app.config.update(
 DEBUG=True,
-FREEZER_BASE_URL="/home/spencer/python/rachleff/build"
+FREEZER_BASE_URL="/"
 )
 freezer = Freezer(app)
 

@@ -7,9 +7,6 @@
   <script type="text/javascript" src="{{url_for('static',filename='sorttable.js')}}"></script>
   <script type="text/javascript" src="{{url_for('static',filename='jquery-1.8.0.js')}}"></script>
   <script type="text/javascript" src="{{url_for('static',filename='jquery.cycle.all.js')}}"></script>
-</head>
-
-<body>
   <script type="text/javascript">
     $(document).ready(function(){
       $(".button").click(function(event){
@@ -24,6 +21,9 @@
 
     }); 
   </script>
+</head>
+
+<body>
   <h1><a href="{{url_for('index') }}"><img id="title" src="{{url_for('static', filename='removedImages/logo.gif')}}"/></a></h1>
   <nav class="table">
     <ul class="horizontal_list">

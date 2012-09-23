@@ -108,6 +108,25 @@ ul.names{
   list-style-type:none;
 }
 
+a.names:link{
+  color: white;
+  text-decoration: none;
+}
+
+a.names:hover{
+  color: white;
+  text-decoration: none;
+}
+
+a.names:active{
+  color: white;
+  text-decoration: none;
+}
+
+a.names:visited{
+  color: white;
+  text-decoration: none;
+}
 .table{
   display: table;
   margin: 0 auto;
