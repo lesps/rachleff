@@ -2,15 +2,10 @@
 
 {% block content %}
 <h3>Gallery</h3>
-<div id="galleria">
+<div id="galleria" class="table">
   {%for i in images%}
     <img src="{{url_for('static',filename=i)}}">
   {%endfor%}
 </div>
-
-<script>
-Galleria.loadTheme("{{url_for('static',filename='galleria/themes/classic/galleria.classic.min.js')}}");
-Galleria.run("#galleria");
-</script>
 
 {% endblock content %} 

@@ -106,8 +106,9 @@ background: #466498;
 
 #galleria{
   width: 700px;
-  height: 700px;
-  background: #000;
+  height: 500px;
+  background: #0E1B31;
+  color: #0E1B31;
 }
 
 ul.names{
@@ -133,6 +134,7 @@ a.names:visited{
   color: white;
   text-decoration: none;
 }
+
 .table{
   display: table;
   margin: 0 auto;
