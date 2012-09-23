@@ -2,20 +2,15 @@
 
 {% block content %}
 <h3>Gallery</h3>
-<table class="gallery">
-  <tr>
-    {%for i in images%}
-    <td>
-      <div class="gallerycell">
-        <a href="{{url_for('static',filename=i)}}">
-          <img src="{{url_for('static',filename=i)}}">
-        </a>
-      </div>
-    </td>
-    {%if loop.index is divisibleby 2%}
-    </tr><tr>
-    {%endif%}
-    {%endfor%}
-  </tr>
-</table>
+<div id="galleria">
+  {%for i in images%}
+    <img src="{{url_for('static',filename=i)}}">
+  {%endfor%}
+</div>
+
+<script>
+Galleria.loadTheme("{{url_for('static',filename='galleria/themes/classic/galleria.classic.min.js')}}");
+Galleria.run("#galleria");
+</script>
+
 {% endblock content %} 

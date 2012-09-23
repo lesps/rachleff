@@ -104,6 +104,12 @@ background: #466498;
   text-align: center;
 }
 
+#galleria{
+  width: 700px;
+  height: 700px;
+  background: #000;
+}
+
 ul.names{
   list-style-type:none;
 }
