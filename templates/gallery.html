@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
+<script>
+  Galleria.run("#galleria");
+</script>
 <h3>Gallery</h3>
 <div id="galleria" class="table">
   {%for i in images%}
