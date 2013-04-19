@@ -35,7 +35,7 @@ app = Flask(__name__)
 app.config.from_object(__name__)
 app.config.update(
 DEBUG=True,
-FREEZER_BASE_URL="/"
+FREEZER_BASE_URL="/~rscholar/"
 )
 freezer = Freezer(app)
 
@@ -85,7 +85,7 @@ def gallery():
 def students():
   return render_template('students.html', students=sortedstudents, page="students")
 
-@app.route("/scholars/<key>")
+@app.route("/scholars/<key>/")
 def show_abstract(key):
   return render_template('abstracts.html', student=abstractobjs[key])
 

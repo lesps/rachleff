@@ -1,0 +1,5 @@
+Name: Spencer Lee
+Major: CMPE
+Class: 2014
+Mentor: Dr. Daniel Lee
+Abstract: Modern path planning techniques can be computationally intensive; we are convinced that a geometric approach to path planning is computationally less intensive than graph analysis techniques. 
