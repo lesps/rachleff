@@ -71,7 +71,7 @@ abstractobjs={p.key:p for p in studentobjs}
 
 @app.route("/")
 def index():
-  return render_template('home.html', images=slds)
+  return render_template('home.html', images=slds, page="index")
 
 @app.route("/society/")
 def society():
