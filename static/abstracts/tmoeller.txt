@@ -1,0 +1,5 @@
+Name: Tyler Moeller
+Major: CBE
+Year: 2014
+Mentor: Dr. Daeyeon Lee
+Abstract: Cellular membranes play a crucial role in biological function in organisms, from the detection of extracellular signals in cell-to-cell communication to the response of external stimuli in cell motility and degradation. Replicating this versatility in an artificial setting would allow for the customization of vesicle membranes to accomplish specific goals and tasks. We present a novel method of mimicking this membrane functionality through a synthetic analogue. Through the incorporation of protein into polymer membranes, vesicles could gain unprecedented functionalization. We prove, both visual and fluorescent microscopy, that protein is being incorporated into the polymer bilayer membrane. 

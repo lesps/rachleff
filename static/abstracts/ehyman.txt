@@ -1,0 +1,5 @@
+Name: Emily Hyman
+Major: BE
+Year: 2014
+Mentor: Dr. Katherine Kuchenbecker
+Abstract: The use of haptic feedback to aid motor learning has resulted in numerous studies using a wide range of haptic devices. With the variations among these devices, there is some ambiguity regarding the most effective forms of feedback. In an earlier human-subject study of healthy participants, we tested the effectiveness of one of these devices intended for stroke rehabilitation. We then developed a follow-up study to test a theory on the relationship between occlusion of the virtual motion and the effect of vibrotactile feedback that emerged from analysis of the results of the first user study. It was found that vibrotactile feedback does not have a more significant effect on occluded motions. The study did show the potential of the existence of a range of error in which haptics are most beneficial.

@@ -1,0 +1,5 @@
+Name: Cristina Sorice
+Major: MEAM
+Year: 2014
+Mentor: Dr. Vijay Kumar
+Abstract: This paper takes the assignment problem and adds an additional factor: obstacle avoidance. The inclusion of obstacle avoidance in the assignment problem is an important step in real-world application of assignment and task allocation In this paper we have addressed: the determination of the shortest-distance path around an obstacle, representing the set of possible paths as a graph search with the Hungarian algorithm, performing a graph search problem and implementing Dijkstra’s algorithm, and developing a simulation of flying robots to test the accuracy of our solution.

@@ -1,0 +1,5 @@
+Name: Michelle Ho
+Major: BE
+Class: 2014
+Mentor: Dr. Alexandre Kuryatov
+Abstract: In recent genomic studies, a variation in the α5 subunit was identified as a major risk factor for tobacco addiction and lung cancer (Hales, 2006). This single nucleotide polymorphism (SNP) substitutes the negatively charged aspartic acid (Asp) to the polar uncharged asparagine (Asn) at amino acid position 398 in the α5 subunit. Prior research has found that α5(398Asn) lowers Ca2+ permeability but does not affect sensitivity to activation by ACh in (α4β2)2 α5 AChRs. In (α3β4)2 α5 or (α3β2)2 α5 AChRs, α5(398Asn) did not affect Ca2+ permeability or sensitivity to activation by ACh. We report that in transiently transfected HEK cells and X. Laevis oocytes, α2β2α5 and α2β4α5 AChR, the α5(398Asn) variation does not affect Ca2+ permeability or sensitivity to activation by ACh. These findingssuggest that the interface between α5 and β2 and β4 may be more important in determining AChR function than the interface between α5 and α2 or α4.

@@ -1,0 +1,5 @@
+Name: Colleen Reynolds
+Major: MSE
+Year: 2014
+Mentor: Dr. Karen Winey
+Abstract: A new model of percolation of rod systems has been developed which allows longer nanowires to make a more significant contribution to percolation than short nanowires. To assess the validity of this model the theoretical percolation threshold was calculated for a real distribution of nanowires. This solution of nanowires was then used to fabricate silver nanowire composites from which an experimental percolation threshold could be determined. However, scanning electron micrographs of the samples revealed extensive clumping rather than a random dispersion therefore the experimental percolation threshold could not be compared to the theoretical threshold.

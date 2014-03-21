@@ -1,0 +1,5 @@
+Name: Jonathan Cousins
+Major: MEAM
+Class: 2014
+Mentor: Dr. Mark Yim
+Abstract: In the robotics community there is a currently unfilled niche for a lightweight and low cost robotic arm. This segment of the community has not had access to arms due to them being too heavy and expensive. We designed, fabricated and tested an innovative origami-based design that fills this niche. While the arm was not fully completed, as actuation was not added, it did provide strong signs that further research could result in a more functional prototype.

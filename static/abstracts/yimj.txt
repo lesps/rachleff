@@ -1,0 +1,5 @@
+Name: Justin Yim
+Major: MEAM
+Year: 2014
+Mentor: Dr. Daniel Lee
+Abstract: This paper aims to provide a method for autonomously charging quadrotor UAVs using monocular visual servoing instead of a motion capture systems. LEDs mounted on the quadrotor are used to locate the quadrotor which is then guided onto a landing pad and charging system. The system succeeded in landing and charging a small quadrotor. Using only a single camera, the system is small enough that it was successfully tested onboard a mobile ground based robot.

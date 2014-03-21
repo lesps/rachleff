@@ -1,0 +1,5 @@
+Name: Minsik Jun
+Major: CBE
+Year: 2014
+Mentor: Dr. John Vohs
+Abstract: Cerium vanadates, a class of rare earth vanadates (REVO4) which display high conductivity and stability under various fuel sources, were doped with transition metals (TM) Ni and Cu, in the form of Ce0.9TM0.1VO4. Coulometric titration was used to determine the redox isotherms for these materials and show at which electrochemical conditions the phases of the materials occur. Both Ni- and Cu-doped cerium vanadate materials displayed reduction from the oxidized state at P(O2) which were 2 orders magnitude lower than that of CeVO4, conferring higher stability under reducing conditions. However, after complete reduction, re-oxidizing the materials does not restore the original Ce0.9TM0.1VO4 configuration. The materials that formed upon further reduction of the materials beyond the titration point and the materials’ fuel conversion efficiencies and power densities will be determined at a later time.
